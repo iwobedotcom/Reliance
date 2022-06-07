@@ -151,12 +151,15 @@ input[type="number"] {
 /* Header */
 .reliance__header {
   z-index: 99;
-  background: var(--background-color);
+  background: rgba(255, 255, 255, 0.9);
   transition: background 0.4s, all 0.3s linear;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  opacity: 5;
 }
 
 .reliance__header__logo {
@@ -1155,4 +1158,22 @@ input[type="number"] {
 .reliance__footer__copyright p span {
   color: var(--font-color-yellow);
   font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .reliance__footer__container .about__us,
+  .reliance__footer__container .quick__links,
+  .reliance__footer__container .feeds,
+  .reliance__footer__container .connect {
+    margin: 2rem 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .reliance__footer__container .about__us,
+  .reliance__footer__container .quick__links,
+  .reliance__footer__container .feeds,
+  .reliance__footer__container .connect {
+    margin: 1rem 0 1rem;
+  }
 }

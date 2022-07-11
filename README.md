@@ -13,4 +13,4 @@ A API-first Headless CMS application built using Nextjs, Graphql, Graphcms...
 3. **GraphQL**
 4. **GraphCMS**
 
-### [Live Demo](https://www.reliance.netlify.com/)
+### [Live Demo](https://reliance-nine.vercel.app/)
